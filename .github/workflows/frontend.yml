@@ -2,7 +2,7 @@ name: GitHub Action flow to Docker hub
 
 on:
   push:
-    branches: [main]
+    branches: [master]
 
 jobs:
   build-push-images:
@@ -33,5 +33,5 @@ jobs:
           file: ./dockerfile.v1
           push: true
           tags: |
-            spg51/lab:ghfront1
+            ewa1234/lab11_fullstack
           
